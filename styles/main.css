@@ -134,7 +134,7 @@
     .cover {
         width: 100%;
         height: 55vmin;
-        background: url("../imagens/bg-div-cover.jpg");
+        background: url("../../imagens/bg-div-cover.jpg");
         background-position: -24rem -19rem;
         background-size: 150%;
         position: relative;
