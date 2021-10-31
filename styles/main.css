@@ -1,0 +1,378 @@
+    /* Google Font */
+    
+    @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header,
+    section {
+        overflow-x: hidden;
+    }
+    
+     :root {
+        --Sniglet-font: "Sniglet", cursive;
+        --Rubik: "Rubik", cursive;
+        --Patua: "Patua One", cursive;
+        --Lobster: "lobster", cursive;
+        --blue: #3485FF;
+        --black: #0D114F;
+        --ligh-blue: #E0ECFF;
+        --white: #FBFCFF;
+        --grey: #8794A7;
+    }
+    
+    body {
+        background-color: var(--white);
+        color: var(--black);
+    }
+    
+    header {
+        background: linear-gradient(180deg, rgba(112, 169, 255, 1) 11%, rgba(236, 244, 255, 1) 100%);
+    }
+    
+    header .navbar .navbar-brand {
+        padding-left: 3em;
+        color: var(--white)
+    }
+    
+    .navbar a {
+        font-family: var(--Rubik);
+        color: var(--white);
+        font-size: 1.2em;
+    }
+    
+    header .nav-item:last-child {
+        padding-right: 3em;
+    }
+    
+    header .nav-item {
+        padding: 0.5em;
+    }
+    
+    header .row .col-md- {
+        padding: 4.2vmin 1vmin;
+    }
+    
+    header .row .col-md-7 {
+        font-family: var(--Rubik);
+        padding: 15vmin 1vmin;
+        padding-bottom: 35vmin;
+        color: var(--white)
+    }
+    
+    header .row .col-md-7 h1 {
+        font-size: 5.0em;
+    }
+    
+    header .row .col-md-7 button {
+        margin-top: 2em;
+        background-color: var(--blue);
+        border: none;
+        color: var(--white);
+        transition: 0.2s ease-in-out;
+    }
+    
+    header .row .col-md-7 button:hover {
+        background-color: #0354ce;
+        color: rgb(255, 255, 255);
+        box-shadow: 4px 7px 19px 2px rgba(0, 0, 0, 0.06);
+    }
+    
+    header .row .col-md-5 {
+        padding: 4.2vmin 1vmin;
+    }
+    
+    header .row .col-md-5 img {
+        width: 90%;
+    }
+    
+    .section-1 {
+        padding: 16vmin 0vmin;
+        background-color: var(--white);
+    }
+    
+    .section-1 .row .col-md-6 .pray img {
+        opacity: 0.8;
+        width: 90%;
+        border-radius: 0.2em;
+    }
+    
+    .section-1 .row .col-md-6:last-child {
+        position: relative;
+    }
+    
+    .section-1 .row .col-md-6 .painel {
+        position: absolute;
+        top: 22vmin;
+        left: -20vmin;
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        padding: 13vmin 5vmin 20vmin 10vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family: var(--Rubik);
+        z-index: 1;
+    }
+    
+    .section-1 .row .col-md-6 .painel h1 {
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 2em;
+    }
+    
+    .section-1 .row .col-md-6 .painel p {
+        font-size: 0.9em;
+        color: rgba(0, 0, 0, 0.5);
+        color: var(--black);
+    }
+    /* section 2 */
+    
+    .cover {
+        width: 100%;
+        height: 55vmin;
+        background: url("../imagens/bg-div-cover.jpg");
+        background-position: -24rem -19rem;
+        background-size: 150%;
+        position: relative;
+    }
+    
+    .cover .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    
+    .cover .content {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        padding-top: 19vmin;
+    }
+    
+    .cover .content h1 {
+        font-family: var(--Patua);
+        font-size: 6vmin;
+        color: var(--white);
+    }
+    
+    .cover .content p {
+        font-family: var(--Rubik);
+        font-size: 2vmin;
+        color: #e5e5e5;
+    }
+    
+    .numbers .rect {
+        position: relative;
+        z-index: 1;
+        background: var(--white);
+        width: 17rem;
+        height: 12rem;
+        padding-top: 3.5vmin;
+        margin: 1rem;
+        border-radius: 0.5em;
+        box-shadow: 1px 2px 50px 0px #3485ff56;
+    }
+    
+    .numbers {
+        margin-top: -15vmin;
+    }
+    
+    .numbers .rect h1 {
+        font-size: 5rem;
+        color: #3485FF;
+    }
+    
+    .numbers .rect p {
+        font-family: var(--Patua);
+    }
+    
+    .purchase>h1 {
+        padding-top: 15vmin;
+        padding-bottom: 0.1em;
+        font-family: var(--Lobster);
+    }
+    
+    .purchase>p {
+        color: var(--light-black);
+        font-size: 3vmin;
+        padding-bottom: 5vmin;
+    }
+    
+    .purchase .cards .card {
+        width: 20rem;
+        height: 15rem;
+        margin: 3vmin 3vmin;
+    }
+    
+    .cards div {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .cards .title {
+        padding-top: 1em;
+    }
+    
+    .card-body .pricing .btn {
+        margin-top: 2em;
+        padding: .5em 1em;
+        background-color: var(--blue);
+        border: none;
+        color: var(--white);
+        transition: 0.2s ease-in-out;
+        margin-bottom: 1em;
+    }
+    
+    .card-body .pricing .btn:hover {
+        background-color: #0354ce;
+        color: rgb(255, 255, 255);
+        box-shadow: 4px 7px 19px 2px rgba(0, 0, 0, 0.06);
+    }
+    /* Section 3 */
+    
+    .section-3 {
+        height: 65vmin;
+        margin-top: 8vmin;
+        background: linear-gradient(360deg, rgba(140, 185, 255, 1) 1%, rgba(92, 157, 255, 1) 48%, rgba(126, 176, 251, 1) 100%);
+    }
+    
+    .section-3 .col-md-12 h1 {
+        font-family: var(--Rubik);
+        padding: 2em 0 0.5em 0;
+        color: var(--white);
+        font-size: 6vmin;
+    }
+    
+    .section-3 .col-md-12 p {
+        font-family: var(--Patua);
+        padding: 0;
+        padding-bottom: 2em;
+        color: var(--black);
+        font-size: 3vmin;
+    }
+    
+    .section-3 .desktop {
+        cursor: pointer;
+        background: var(--white);
+        display: inline-block;
+        border-radius: 3em;
+        padding: 2vmin 4.5vmin;
+        margin: 1em;
+        transition: .2s ease-in-out;
+    }
+    
+    .section-3 .desktop:hover {
+        background-color: #e3e3e7;
+    }
+    
+    .section-3 .desktop h3 {
+        font-size: 4vmin;
+    }
+    
+    .section-3 .desktop p {
+        font-size: 2vmin;
+    }
+    /* Section 4 */
+    
+    .section-4 .container-fluid h2 {
+        padding-top: 2em;
+        font-size: 4em;
+        font-family: var(--Patua);
+    }
+    
+    .section-4 .container-fluid p {
+        padding-bottom: 2em;
+        font-size: 1.5em;
+    }
+    /* Carousel */
+    
+    .owl-carousel .item {
+        -webkit-box-shadow: 11px 11px 29px 1px rgba(0, 0, 0, 0.33);
+        box-shadow: 11px 11px 29px 1px rgba(0, 0, 0, 0.33);
+        width: 15em;
+    }
+    
+    .card-img-top1 {
+        height: 300px;
+        width: 240px;
+        background: url("/imagens/UI-face-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .card-img-top2 {
+        height: 300px;
+        width: 250px;
+        background: url("/imagens/UI-face-2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .card-img-top3 {
+        height: 300px;
+        width: 250px;
+        background: url("/imagens/UI-face-3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .card-img-top4 {
+        height: 300px;
+        width: 250px;
+        background: url("/imagens/UI-face-4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .card-img-top5 {
+        height: 300px;
+        width: 250px;
+        background: url("/imagens/UI-face-5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .card-body {
+        max-height: 10em;
+        text-align: center;
+    }
+    /* Footer */
+    
+    footer {
+        margin-top: 5em;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 14vmin 18vmin;
+        font-family: var(--Rubik);
+    }
+    
+    footer p>span {
+        color: var(--blue);
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    footer input {
+        border: none !important;
+        color: var(--black);
+    }
+    
+    footer .btn {
+        color: var(--white);
+        background-color: var(--blue);
+    }
+    
+    footer .column i {
+        padding-right: 0.3em;
+        padding-left: 0.3em;
+    }
+    
+    footer a {
+        padding: 9px;
+    }
