@@ -134,7 +134,7 @@
     .cover {
         width: 100%;
         height: 55vmin;
-        background: url("images/bg-div-cover.jpg");
+        background: url("../images/bg-div-cover.jpg");
         background-position: -24rem -19rem;
         background-size: 150%;
         position: relative;
@@ -302,7 +302,7 @@
     .card-img-top1 {
         height: 300px;
         width: 240px;
-        background: url("images/UI-face-1.jpg");
+        background: url("../images/UI-face-1.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -310,7 +310,7 @@
     .card-img-top2 {
         height: 300px;
         width: 250px;
-        background: url("images/UI-face-2.jpg");
+        background: url("../images/UI-face-2.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -318,7 +318,7 @@
     .card-img-top3 {
         height: 300px;
         width: 250px;
-        background: url("images/UI-face-3.jpg");
+        background: url("../images/UI-face-3.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -326,7 +326,7 @@
     .card-img-top4 {
         height: 300px;
         width: 250px;
-        background: url("images/UI-face-4.jpg");
+        background: url("../images/UI-face-4.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -334,7 +334,7 @@
     .card-img-top5 {
         height: 300px;
         width: 250px;
-        background: url("images/UI-face-5.jpg");
+        background: url("../images/UI-face-5.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
