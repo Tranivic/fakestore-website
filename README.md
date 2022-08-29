@@ -14,4 +14,4 @@ Projeto criado para exercitar e praticar Bootstrap, utilizando html semântico.
 
 
 
-Você pode acessar a demonstração: [Aqui](https://a-uvic.github.io/fakestore-website/)
+Você pode acessar a demonstração: [Aqui](https://Tranivic.github.io/fakestore-website/)
